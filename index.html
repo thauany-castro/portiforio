@@ -23,7 +23,7 @@
     <main class="container mt-5">
         <h2>Meus Projetos</h2>
         <div class="row">
-          projeto 1
+          <!-- projeto 1 -->
             <div class="col-md-4">
                 <div class="card">
                     <img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto do figma">
@@ -31,11 +31,11 @@
                       <h5 class="card-title">Meu primeiro apliativo no figma; SUA RECEITA</h5>
                       <p class="card-text">Uma aplicaivo de receitas desenvolvido por mim, com o objetivo de facilitar a vida de quem precisa de uma receita rápida ou que só quer compartilhar com as pessoas uma nova receita em um só lugar.
                       </p>
-                      <button type="button" class="btn btn-link">veja o projeto</button>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">veja o projeto</button>
                     </div>
                   </div>
         </div>
-        projeto 2
+        <!-- projeto 2 -->
         <div class="col-md-4">
           <div class="card">
               <img src="img/projeto-2.png" class="card-img-top" alt="imagem do projeto do figma">
@@ -43,12 +43,48 @@
                 <h5 class="card-title">Meu primeiro apliativo no figma; sua receita</h5>
                 <p class="card-text">Uma aplicaivo de receitas desenvolvido por mim, com o objetivo de facilitar a vida de quem precisa de uma receita rápida ou que só quer compartilhar com as pessoas uma nova receita em um só lugar.
                 </p>
-                <button type="button" class="btn btn-link">veja o projeto</button>
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">veja o projeto</button>
               </div>
           </div>
     </div>
     <div>
     <main>
+<!-- modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></bu
+          </div>
+          <div class="modal-body">
+                        <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de
+                                livros favoritos. O objetivo é criar um ambiente virtual onde seja possível compartilhar
+                                seus livros preferidos, fornecendo uma descrição breve de cada um, incluindo o autor, o ano
+                                de publicação e uma opção de compra.</p>
+                        <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                                enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                                disposição dos elementos.</p>
+                        <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                                principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
+                                flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
+                                imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
+                                uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                                tela.</p>
+                        <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                                fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                                O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                                esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                                experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                                a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="">Ver projeto ao vivo</a>
+            <a href="">Ver código do projeto</a>
+          </div>
+      </div>
+  </div>
+</div>
 
       <footer class="container py-5">
           <h2>Entre em contato</h2>
